@@ -2,12 +2,12 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="bg-cyan-800 text-white p-4 flex justify-between align-middle">
+    <nav className="text-cyan-400 p-10 flex justify-between align-middle ">
       <div>
-        <h1 className="text-lg font-bold">Patrick’s Portfolio</h1>
+        <h1 className="text-lg  font-bold">Mr.Patrick’s  </h1>
       </div>
       <div className="">
-        <ul className="list-none flex flex-cols gap-14 capitalize align-middle">
+        <ul className="list-none flex flex-cols gap-14 capitalize align-middle text-lg ">
           <li>
             <Link href="#home" scroll={false}>
               Home
