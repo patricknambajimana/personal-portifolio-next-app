@@ -7,7 +7,7 @@ export default function Navbar() {
         <h1 className="text-lg  font-bold">Mr.Patrick’s  </h1>
       </div>
       <div className="">
-        <ul className="list-none flex flex-cols gap-14 capitalize align-middle text-lg ">
+        <ul className="list-none flex flex-cols gap-14 capitalize align-middle text-lg mr-20">
           <li>
             <Link href="#home" scroll={false}>
               Home
@@ -30,9 +30,7 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-      <div className=" border-2 border-gray-200  rounded-2xl align-middle">
-        <button className="p-2 capitalize">download cv</button>
-      </div>
+     
     </nav>
   );
 }
